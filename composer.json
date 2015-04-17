@@ -1,7 +1,11 @@
 {
-    "name": "ccovey/odbc-driver",
+    "name": "garylocke/odbc-driver",
     "description": "",
     "authors": [
+        {
+            "name": "Gary Locke",
+            "email": "gary.locke.4@gmail.com"
+        },
         {
             "name": "Cody Covey",
             "email": "ccovey14@gmail.com"
@@ -9,8 +13,9 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.x",
-        "illuminate/database": "4.1.x",
+        "illuminate/support": "5.0.*",
+        "illuminate/auth": "5.0.*",
+        "illuminate/config": "5.0.*",
         "ext-pdo_odbc": "*"
     },
     "require-dev": {
